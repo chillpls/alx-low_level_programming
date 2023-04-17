@@ -43,7 +43,3 @@ Contributions to this repository are welcome. If you find any issues or have sug
 ## Author
 
 - [chillpls](https://github.com/chillpls)
-
-## License
-
-This repository is licensed under the MIT License. See the `LICENSE` file for more information.
