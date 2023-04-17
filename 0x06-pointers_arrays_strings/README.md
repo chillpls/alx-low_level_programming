@@ -27,15 +27,21 @@ This repository contains the following projects:
 
 - [3-strcmp.c](./3-strcmp.c): Writing a C function that compares two strings.
 
-- [4-rev_array.c](./4-rev_array.c): Writing a C function that reverses the content of an array of integers.
+- [4-print_rev.c](./4-print_rev.c): Writing a C function that prints a string, in reverse, followed by a new line.
 
-- [5-string_toupper.c](./5-string_toupper.c): Writing a C function that changes all lowercase letters of a string to uppercase.
+- [5-rev_string.c](./5-rev_string.c): Writing a C function that reverses a string.
 
-- [6-cap_string.c](./6-cap_string.c): Writing a C function that capitalizes all words of a string.
+- [6-puts2.c](./6-puts2.c): Writing a C function that prints every other character of a string, starting with the first character.
 
-- [7-leet.c](./7-leet.c): Writing a C function that encodes a string into 1337.
+- [7-puts_half.c](./7-puts_half.c): Writing a C function that prints the second half of a string.
 
-- [8-rot13.c](./8-rot13.c): Writing a C function that encodes a string using rot13.
+- [8-print_array.c](./8-print_array.c): Writing a C function that prints `n` elements of an array of integers, followed by a new line.
+
+- [9-strcpy.c](./9-strcpy.c): Writing a C function that copies the string pointed to by `src`, including the terminating null byte (`'\0'`), to the buffer pointed to by `dest`.
+
+- [100-atoi.c](./100-atoi.c): Writing a C function that converts a string to an integer.
+
+- [101-keygen.c](./101-keygen.c): Writing a C program that generates random valid passwords for the program 101-crackme.
 
 ## Getting Started
 
