@@ -17,13 +17,17 @@ The "0x09-static_libraries" section of the ALX Low-Level Programming curriculum 
 
 ## Projects
 
-This repository contains the following projects:
+### 0. A library is not a luxury but one of the necessities of life
 
-- [libholberton.a](./libholberton.a): Creating a static library called `libholberton.a` containing various C functions.
+- A static library called `libholberton.a` containing various C functions.
 
-- [create_static_lib.sh](./create_static_lib.sh): Writing a shell script that creates a static library called `liball.a` from all the `.c` files in the current directory.
+### 1. Without libraries what have we? We have no past and no future
 
-- [holberton.h](./holberton.h): Creating a header file containing the prototypes of all the functions in the `libholberton.a` and `liball.a` libraries.
+- A script called `create_static_lib.sh` that creates a static library called `liball.a` from all the `.c` files in the current directory.
+
+### 2. Either write something worth reading or do something worth writing
+
+- A blog post that explains the difference between static and dynamic libraries in C.
 
 ## Getting Started
 
@@ -31,14 +35,20 @@ To get started with these projects, simply navigate to the project directory and
 
 ## Usage
 
-The `libholberton.a` library can be used by linking it with your C program using the `-l` flag followed by the library name:
+### Using `libholberton.a`
 
-gcc -Wall -pedantic -Werror -Wextra main.c -L. -lholberton -o my_program
+To use the `libholberton.a` library, you need to compile your C program with the library and include its header file in your code. Here's an example:
+
+gcc -Wall -Werror -Wextra -pedantic main.c -L. -lholberton -o my_program
 
 
-Similarly, the `liball.a` library can be used in the same way:
+In this example, `main.c` is your C file that uses the functions from the library. `-L.` specifies the directory where the library is located (the current directory in this case). `-main` links your program with the `liball.a` library. `-o my_program` specifies the name of the output file.
 
-gcc -Wall -pedantic -Werror -Wextra main.c -L. -lall -o my_program
+### Using `liball.a`
+
+To use the `liball.a` library, you can follow the same steps as above, but replace `-lholberton` with `-lall`:
+
+gcc -Wall -Werror -Wextra -pedantic main.c -L. -lall -o my_program
 
 
 ## Contributing
