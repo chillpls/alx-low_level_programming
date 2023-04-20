@@ -10,7 +10,6 @@ This repository contains the projects completed as part of the "0x02-functions_n
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [Author](#author)
-- [License](#license)
 
 ## Description
 
